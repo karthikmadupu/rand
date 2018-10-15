@@ -65,7 +65,7 @@ In other cases using `::test::rng` with a constant seed is a good option:
 let mut rng = ::test::rng(528); // just pick some number
 ```
 
-Only the unit tests should work in `no_std` mode, we don't want to complicate
+Only the unit tests should work in the `no_std` mode, we don't want to complicate
 the doc-tests. Run the tests with:
 ```sh
 # Test no_std support
